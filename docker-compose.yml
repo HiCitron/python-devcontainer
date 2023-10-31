@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: ecg_app
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    command: sleep infinity
