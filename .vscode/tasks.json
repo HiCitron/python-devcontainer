@@ -4,13 +4,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "pip freeze",
+            "label": "f: pip freeze",
             "type": "shell",
             "command": "pip freeze > requirements.txt",
             "problemMatcher": [],
         },
         {
-            "label": "run tests",
+            "label": "t: run tests",
             "type": "shell",
             "command": "pytest",
             "problemMatcher": [],
